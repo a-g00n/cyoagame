@@ -1,0 +1,99 @@
+html{
+	font-size: 1vw;
+}
+
+.game_wrapper{
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-self: center;
+}
+
+.title{
+	width: 100%;
+	text-align: center;
+	color: white;
+	margin-top: 3vw;
+	font-size: 3vw;
+}
+
+.start_button{
+	width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.button{
+	padding-left:  .5vw;
+    padding-right:  .5vw;
+    padding-top: .5vw;
+    padding-bottom: .5vw;
+    font-size: 1.5vw;
+    margin: 1vw;
+}
+
+.choice_button{
+	display: flex;
+	flex-direction: row;
+	padding: .5vw;
+	align-items: center;
+	justify-content: center;
+}
+
+.text_box{
+	display: flex;
+	background: rgba(60, 61, 66, 0.6);
+	width: 60%;
+	border: 3px solid black;
+	padding: 1vw;
+	margin: 1vw;
+	color: white;
+	font-size: 1.5vw;
+	align-self: center;
+	flex-direction: column;
+}
+
+.flex-container{
+	width: 30%
+	display: flex;
+	align-items: right;
+	}
+
+.back_button{
+	padding-left:  .5vw;
+    padding-right:  .5vw;
+    padding-top: .5vw;
+    padding-bottom: .5vw;
+    font-size: 1.5vw;
+    background-color: rgb(154, 14, 14);
+    color: white;
+}
+
+.deathasset{
+	display: flex;
+	width: 100%;
+	height: auto;
+	justify-content: center;
+}
+
+.asset{
+	display: flex;
+	width: 100%;
+	height: auto;
+	justify-content: center;
+}
+
+p{
+	text-align: center;
+	margin: .5vw;
+}
+
+img{
+	max-height: 100%;
+}
