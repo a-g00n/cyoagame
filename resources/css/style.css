@@ -1,5 +1,16 @@
 html{
 	font-size: 1vw;
+	font-family: morpheusregular, Arial, sans-serif;
+	font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'morpheusregular';
+    src: url('./resources/css/fonts/morpheus-webfont.woff2') format('woff2'),
+         url('./resources/css/fonts/morpheus-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
 }
 
 .game_wrapper{
@@ -21,6 +32,7 @@ html{
 	color: white;
 	margin-top: 3vw;
 	font-size: 3vw;
+
 }
 
 .start_button{
@@ -48,7 +60,7 @@ html{
 
 .text_box{
 	display: flex;
-	background: rgba(60, 61, 66, 0.6);
+	background: rgba(60, 61, 66, 0.65);
 	width: 60%;
 	border: 3px solid black;
 	padding: 1vw;
